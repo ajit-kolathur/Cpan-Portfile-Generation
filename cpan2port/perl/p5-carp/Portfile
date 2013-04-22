@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           perl5 1.0
+
+perl5.setup         Carp 1.26
+#perl5.setup         Carp 1.26 ../by-authors/id/Z/ZE/ZEFRAM
+platforms           darwin
+maintainers         nomaintainer
+# Uncomment this line if you know there will be no arch-specific code:
+#supported_archs     noarch
+
+description         Throw exceptions outside current package
+
+long_description    ${description}
+
+checksums           sha256 0a310222a9a52eca9425bca19e6d8e04faa8bb4f64d5c16f2f6cce8190c0a99b \
+                    rmd160 2c5f012a6260d70cb1da488326d82ede1120f58f
+
+
+
+

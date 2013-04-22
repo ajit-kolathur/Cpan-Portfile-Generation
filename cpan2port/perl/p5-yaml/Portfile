@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           perl5 1.0
+
+perl5.setup         YAML 0.84
+#perl5.setup         YAML 0.84 ../by-authors/id/M/MS/MSTROUT
+platforms           darwin
+maintainers         nomaintainer
+# Uncomment this line if you know there will be no arch-specific code:
+#supported_archs     noarch
+
+description         YAML Ain't Markup Language (tm)
+
+long_description    ${description}
+
+checksums           sha256 0a351f0a771526ca4a448c573a781614debdd5296fd0832396fc89f1854d640c \
+                    rmd160 5468cdba394767588846128a3c47db05c0160bea
+
+
+
+

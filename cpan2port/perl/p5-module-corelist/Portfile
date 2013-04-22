@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           perl5 1.0
+
+perl5.setup         Module-CoreList 2.85
+#perl5.setup         Module-CoreList 2.85 ../by-authors/id/B/BI/BINGOS
+platforms           darwin
+maintainers         nomaintainer
+# Uncomment this line if you know there will be no arch-specific code:
+#supported_archs     noarch
+
+description         Module::CoreList (no description available)
+
+long_description    ${description}
+
+checksums           sha256 63037514d61df3d64bcd09b07c8b238ba04b53e8b26e319761d14e81c0e83d4d \
+                    rmd160 0e59a42ded542f465ed7708a30dc9d15bc6596f1
+
+
+
+

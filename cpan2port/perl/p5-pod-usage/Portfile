@@ -1,0 +1,23 @@
+# -*- coding: utf-8; mode: tcl; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- vim:fenc=utf-8:ft=tcl:et:sw=4:ts=4:sts=4
+# $Id$
+
+PortSystem          1.0
+PortGroup           perl5 1.0
+
+perl5.setup         Pod-Usage 1.61
+#perl5.setup         Pod-Usage 1.61 ../by-authors/id/M/MA/MAREKR
+platforms           darwin
+maintainers         nomaintainer
+# Uncomment this line if you know there will be no arch-specific code:
+#supported_archs     noarch
+
+description         Print Usage messages based on your own pod
+
+long_description    ${description}
+
+checksums           sha256 3e0c0945f3adbf37c3170d714d88cc382bbcd926ebb663398d55b832fdb6f7f4 \
+                    rmd160 e72d91bc0afe41169009d29eee5179366bf4cf57
+
+
+
+
